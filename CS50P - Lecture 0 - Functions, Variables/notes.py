@@ -1,6 +1,11 @@
+""" Data Types """
+
+
 # Strings --> str
 
 '''
+# --- String Methods ---
+
 # Remove whitespaces from 'str'
 name = name.strip()
 
@@ -65,3 +70,20 @@ def display():
 name = input("What's your name? ")
 display()
 print(name)
+
+
+''' ------ USEFUL LINKS ------
+Visual Studio Code for CS50P
+URL: code.cs50.io
+Tutorial Video: https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/
+
+Submission Portal for CS50P
+URL: https://submit.cs50.io/courses
+URL: https://submit.cs50.io/courses/1202/
+URL: https://submit.cs50.io/users/AR-Sushmoy
+
+CS50P Progress tracker 
+URL: https://cs50.me/
+URL: https://cs50.me/cs50p
+
+'''

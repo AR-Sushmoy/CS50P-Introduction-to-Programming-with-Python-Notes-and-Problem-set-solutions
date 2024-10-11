@@ -9,7 +9,7 @@ Comparision Operators:
 
 '''
 
-#score = int(input("Score: "))
+# score = int(input("Score: "))
 '''
 if score >= 90 and score <= 100:
     print("Grade: A")
@@ -34,17 +34,19 @@ elif 60 <= score < 70:
 else:
     print("Grade: F")
 '''
-# if score >= 90: 
-#     print("Grade: A")
-# elif score >= 80:
-#     print("Grade: B")
-# elif score >= 70:
-#     print("Grade: C")
-# elif score >= 60:
-#     print("Grade: D")
-# else:
-#     print("Grade: F")
-
+''' 
+# This Program will produce bugs later on, It is better to include the upper limit as well.
+if score >= 90: 
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+elif score >= 60:
+    print("Grade: D")
+else:
+    print("Grade: F")
+'''
 #--------------------------------------------------------
 '''
 Arithmatic Symbols:
@@ -81,8 +83,19 @@ main()
 #--------------------------------------------------------
 name = input("What's your name? ")
 
-# match case is somthing similar to switch case in Javascript but here you don't need to use the break keyword and instead of default you'll have to use this --> 'case _:'
+'''
+if name == "Harry" or name == "Hermoine" == name == "Ron":
+    print("Gryffindor")
+elif name == "Draco":
+    print("Slytherin")
+else:
+    print("Who?")
+'''
 
+
+''' ---- Match ----
+match is somthing similar to switch case in Javascript or other programming languages but here in python you don't need to use the keyword break and instead of default you'll have to use underscore symbol -> case _:
+'''
 match name:
     case "Harry" | "Hermoine" | "Ron":
         print("Gryffindor")
